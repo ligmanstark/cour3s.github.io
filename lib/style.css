@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background: url(../img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: darkcyan;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.inp-auth {
+  height: 40px;
+  padding-left: 2px;
+}
+
+.length-hidden {
+  display: none;
+}
+
+.length-error {
+  color: darkmagenta;
+}
+
+.li-box-lobby {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.player-list-lobby-stats {
+  background: linear-gradient(to right, rgb(57, 255, 57), red);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.player-lobby {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.app-game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.auth-box,
+.lobby-box,
+.play-box,
+.win-box,
+.lose-box,
+.wait-box {
+  margin-top: 180px;
+  border: 8px solid darkblue;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.nickname-paragraph {
+  text-align: center;
+}
+
+.lobby-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.play-box {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.img {
+  width: 45px;
+}
+.img-box {
+  display: flex;
+  gap: 14px;
+  height: 52px;
+}
+
+.btn-rock,
+.btn-scissor,
+.btn-paper {
+  width: 95px;
+}
+
+.win-box,
+.lose-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-play {
+  margin-top: 12px;
+}
+
+.wait-box {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  body {
+    background-size: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
